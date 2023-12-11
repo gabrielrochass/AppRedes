@@ -10,7 +10,7 @@ def HandleRequestUdp(mserverSocket):
         rep = 'Hey cliente!'
         mserverSocket.sendto(rep.encode(), clientaddress)
 
-serverPort = 1234
+serverPort = 12201
 serverName = 'localhost'
 
 serverSocket = socket(AF_INET, SOCK_DGRAM)

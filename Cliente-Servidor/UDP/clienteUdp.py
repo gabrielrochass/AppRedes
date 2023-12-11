@@ -2,7 +2,7 @@ from socket import socket, AF_INET, SOCK_DGRAM
 #Passo 1: Criando o socket.
 mClientSocket = socket(AF_INET, SOCK_DGRAM)
 
-serverPort = 1234
+serverPort = 12201
 serverName = 'localhost'
 
 serverAddress = (serverName, serverPort)
